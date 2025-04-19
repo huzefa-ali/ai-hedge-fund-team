@@ -25,7 +25,6 @@ This system employs several agents working together:
 
 **Note**: the system simulates trading decisions, it does not actually trade.
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/virattt?style=social)](https://twitter.com/virattt)
 
 ## Disclaimer
 
@@ -53,8 +52,8 @@ By using this software, you agree to use it solely for learning purposes.
 
 Clone the repository:
 ```bash
-git clone https://github.com/virattt/ai-hedge-fund.git
-cd ai-hedge-fund
+git clone (https://github.com/huzefa-ali/ai-hedge-fund-team.git)
+cd ai-hedge-fund-team
 ```
 
 1. Install Poetry (if not already installed):
@@ -145,7 +144,7 @@ poetry run python src/backtester.py --ticker AAPL,MSFT,NVDA --ollama
 
 ## Project Structure 
 ```
-ai-hedge-fund/
+ai-hedge-fund-team/
 ├── src/
 │   ├── agents/                   # Agent definitions and workflow
 │   │   ├── bill_ackman.py        # Bill Ackman agent
@@ -174,10 +173,6 @@ ai-hedge-fund/
 5. Create a Pull Request
 
 **Important**: Please keep your pull requests small and focused.  This will make it easier to review and merge.
-
-## Feature Requests
-
-If you have a feature request, please open an [issue](https://github.com/virattt/ai-hedge-fund/issues) and make sure it is tagged with `enhancement`.
 
 ## License
 
